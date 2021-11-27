@@ -14,3 +14,7 @@ It's a simple program which generates a basic footprint for all Autosport connec
 -via outer diameter
 
 it works, well enough
+
+<a download="autosport_generator.exe" href="AUTOSPORT_PG/Debug/AUTOSPORT_PG.exe">
+    DOWNLOAD EXE
+</a>
