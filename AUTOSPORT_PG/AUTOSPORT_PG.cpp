@@ -40,7 +40,7 @@ int main()
 		std::getline(file_in, buff_x, ';');
 		std::getline(file_in, buff_y);
 
-		output += "  (pad " + buff_pin + " thru_hole circle (at " + std::to_string(std::stod(buff_x) * 0.0254) + " " + std::to_string(std::stod(buff_x) * -0.0254) + ") (size " + size + " " + size + ") (drill " + drill + ") (layers *.Cu *.Mask))\n";
+		output += "  (pad " + buff_pin + " thru_hole circle (at " + std::to_string(std::stod(buff_x) * 25.4) + " " + std::to_string(std::stod(buff_x) * -025.4) + ") (size " + size + " " + size + ") (drill " + drill + ") (layers *.Cu *.Mask))\n";
 	}
 
 	output += ")\n";
